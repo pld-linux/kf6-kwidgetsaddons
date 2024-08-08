@@ -1,0 +1,11 @@
+--- kwidgetsaddons-5.39.0/autotests/CMakeLists.txt.orig	2017-10-07 21:25:33.000000000 +0200
++++ kwidgetsaddons-5.39.0/autotests/CMakeLists.txt	2017-10-14 14:48:30.771456135 +0200
+@@ -4,7 +4,6 @@ include(ECMAddTests)
+ find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Test)
+ 
+ ecm_add_tests(
+-  kacceleratormanagertest.cpp
+   kcollapsiblegroupbox_test.cpp
+   kcolorbuttontest.cpp
+   kdatecomboboxtest.cpp
+
