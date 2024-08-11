@@ -7,12 +7,12 @@
 
 Summary:	Large set of desktop widgets
 Name:		kf6-%{kfname}
-Version:	6.4.0
-Release:	2
+Version:	6.5.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	ca052e1cf54256bc50bc626cde78981a
+# Source0-md5:	ff9f14101fe8bb6686cc3bc8e1d352f7
 Patch0:		failed-tests.patch
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
