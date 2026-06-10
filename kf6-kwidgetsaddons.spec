@@ -49,6 +49,19 @@ Further widgets and classes can be found in other KDE frameworks. For
 a full list, please see
 <https://projects.kde.org/projects/frameworks/>
 
+%description -l pl.UTF-8
+Te repozytorium zawiera dodatkowe widżety i klasy dla aplikacji
+korzystających z modułu QtWidget. Jeśli przenosisz aplikacje z KDE 4
+(biblioteki "kdeui") znajdziesz wiele ich klas tutaj.
+
+Są tu klasy akcji, które mogą być dodane do pasków narzędzi lub menu,
+szeroki zakres widżetów do wyboru znaków, czcionek, kolorów, akcji,
+dat i czasu, lub typów MIME, jak i świadome platformy okienka
+dialogowe, strony konfiguracji, okienka tekstowe, okienka haseł.
+
+Inne widżety i klasy można znaleźć w innych szkieletach KDE. Pełną
+listę znajdziesz tu <https://projects.kde.org/projects/frameworks/>
+
 
 %package devel
 Summary:	Header files for %{kfname} development
