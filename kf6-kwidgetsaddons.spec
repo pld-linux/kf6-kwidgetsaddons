@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.29
+%define		kdeframever	6.30
 %define		qtver		5.15.2
 %define		kfname		kwidgetsaddons
 
 Summary:	Large set of desktop widgets
 Name:		kf6-%{kfname}
-Version:	6.29.0
-Release:	2
+Version:	6.30.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	ced1d43c0ca814defbca2a91ed700fcc
+# Source0-md5:	93fba2fcd59bae5102ca00a531afc7b7
 Patch0:		failed-tests.patch
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
